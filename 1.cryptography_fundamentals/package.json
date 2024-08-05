@@ -1,0 +1,21 @@
+{
+  "name": "generate-keypair",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana-developers/helpers": "^2.4.0",
+    "@solana/web3.js": "^1.95.2",
+    "base58": "^2.0.1",
+    "bs58": "^6.0.0",
+    "esrun": "^3.2.26",
+    "typescript": "^5.5.4"
+  }
+}
